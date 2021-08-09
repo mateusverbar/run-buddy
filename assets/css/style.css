@@ -43,6 +43,11 @@ header nav ul li a {
     font-size: 22px;
 }
 
+footer {background: #fce138;
+width: 100%;
+padding: 40px 35px;
+}
+
 /* Applies 20px to every side (top, right, bottom, left) */
 /* header{padding: 20px;} */
 /* Applies 20px to the top and bottom, then 35px to the left and right */
