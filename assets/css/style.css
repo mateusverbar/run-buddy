@@ -71,6 +71,13 @@ section {
     background-image: url("../images/hero-bg.jpg")
 }
 
+/*Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg")
+    height: 600px;
+}
+/*Hero style end */
+
 /* Applies 20px to every side (top, right, bottom, left) */
 /* header{padding: 20px;} */
 /* Applies 20px to the top and bottom, then 35px to the left and right */
