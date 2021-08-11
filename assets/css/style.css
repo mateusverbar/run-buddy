@@ -73,7 +73,7 @@ section {
 
 /*Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg")
+    background-image: url("../images/hero-bg.jpg");
     height: 600px;
 }
 /*Hero style end */
