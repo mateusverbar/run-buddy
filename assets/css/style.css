@@ -79,6 +79,14 @@ section {
 }
 /*Hero style end */
 
+.hero-form {
+    color:#024e76;
+    background-color:#fce138;
+    padding:20px;
+    width: 500px;
+}
+
+
 /* Applies 20px to every side (top, right, bottom, left) */
 /* header{padding: 20px;} */
 /* Applies 20px to the top and bottom, then 35px to the left and right */
