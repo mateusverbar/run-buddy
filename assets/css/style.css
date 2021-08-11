@@ -75,6 +75,19 @@ footer h2 {
     margin-bottom: 15px;
 }
 
+.hero-form button {
+background-color: #024e76;
+color: #fce138;
+padding: 5px;
+border: none;
+font-size: 16px;
+}
+
+
+.hero-form label {
+    margin: 0 5px;
+}
+
 footer div {
     float: right;
     line-height: 1.5;
