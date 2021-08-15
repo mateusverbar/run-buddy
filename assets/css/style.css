@@ -70,6 +70,7 @@ div h3 {
     border-bottom: 3px solid;
     border-color: #fce138;
     margin: 0 auto;
+    display: inline-block;
 }
 
 .intro p {
