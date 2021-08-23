@@ -19,6 +19,8 @@ background-color: #39a6b2;
 display:flex;
 justify-content:space-between;
 flex-wrap:wrap;
+position: sticky;
+top: 0;
 }
 
 
@@ -28,6 +30,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 header a {
@@ -51,6 +54,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -101,6 +105,7 @@ footer div {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .hero-form button {
@@ -109,6 +114,7 @@ color: #fce138;
 padding: 5px;
 border: none;
 font-size: 16px;
+border-radius: 10px;
 }
 
 .steps {
@@ -202,18 +208,21 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .hero-form {
     color:#024e76;
-    background-color:#fce138;
+    background-color:rgba(252, 225, 56, 0.8);;
     padding:20px;
     border-style: solid;
     border-width: 3px;
     border-color: #024e76;
     width:40%;
     margin:3.5%;
-}
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+}å
 
 .section-title {
     font-size: 48px;
@@ -326,6 +335,7 @@ justify-content: space-around;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -336,6 +346,7 @@ justify-content: space-around;
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-info p,
@@ -361,19 +372,10 @@ justify-content: space-around;
         justify-content: center;
     }
 
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
-    }
-
-    header nav ul li a {
-        font-size: 20px;
     }
 
     footer h2, footer div {
