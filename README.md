@@ -1,4 +1,4 @@
-# Run Buddy,, Inc
+# Run Buddy Inc
 
 ## Purpose
 A website that offers fitness training services. 
@@ -6,8 +6,6 @@ A website that offers fitness training services.
 ## Built With
 * HTML
 * CSS
-
-###Let's create a merge conflict!!
 
 ## Website
 https://mateusverbar.github.io/run-buddy/
