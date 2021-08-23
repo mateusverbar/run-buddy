@@ -7,7 +7,7 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
-###Let's create a merge conflict!
+###Let's create a merge conflict!!
 
 ## Website
 https://mateusverbar.github.io/run-buddy/
