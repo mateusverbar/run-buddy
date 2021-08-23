@@ -48,7 +48,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -194,7 +194,8 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
+    align-items: flex-start;
 }
 
 .hero-cta h2 {
@@ -215,7 +216,7 @@ section {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding-bottom:20px;
@@ -352,6 +353,26 @@ justify-content: space-around;
   .flex-row {
       display:flex;
   }
+
+  /*Media Query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+}
+
+/*Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+}
+
+/* Media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+}
+
+/*The order in which you present @media rules matters, we started with the widest value, and moved to the smallest - if we had reversed things, only the widest value would have mattered because of how CSS cascades things. The browser reads the sheet from top to bottom - lower rules override higher rules, so if we had started with the smallest screen size, the larger screen size rules would all override previous rules, ensuring that the last rule takes precedence (the 980 rule). 
+
+Additionally, the reason these need to be at the end is because the queries that override desktop styles wouldn't be applied because desktop styles are defined later (and therefore override media queries). 
+
+Good practice note: start by building the website for mobile, then scale it up for tablets and computers. 
+*/
+
 
 
 /* Applies 20px to every side (top, right, bottom, left) */
